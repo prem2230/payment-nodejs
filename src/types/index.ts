@@ -1,5 +1,4 @@
 export interface IUser {
-    _id?: string;
     email: string;
     password: string;
     name: string;
@@ -9,7 +8,6 @@ export interface IUser {
 }
 
 export interface IPayment {
-    _id?: string;
     userId: string;
     amount: number;
     currency: string;
@@ -23,7 +21,6 @@ export interface IPayment {
 }
 
 export interface ITransaction {
-    _id?: string;
     paymentId: string;
     userId: string;
     type: TransactionType;

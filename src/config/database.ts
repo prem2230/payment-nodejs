@@ -5,7 +5,7 @@ export class DatabaseConfig {
 
     private constructor() { }
 
-    private static getInstance(): DatabaseConfig {
+    public static getInstance(): DatabaseConfig {
         if (!DatabaseConfig.instance) {
             DatabaseConfig.instance = new DatabaseConfig();
         }
