@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { PaymentService } from "../services/PaymentService";
-import { Payment } from "../models/Payment";
+import { PaymentService } from "../services/paymentService";
+import { Payment } from "../models/payment";
 import { create } from "domain";
 
 export class PaymentController {

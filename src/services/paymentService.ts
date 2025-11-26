@@ -1,6 +1,6 @@
 import { RazorpayConfig } from "../config/razorPay";
-import { Payment } from "../models/Payment";
-import { Transaction } from "../models/Transaction";
+import { Payment } from "../models/payment";
+import { Transaction } from "../models/transaction";
 import { PaymentStatus, TransactionStatus, TransactionType } from "../types";
 import { KafkaService } from "./kafkaService";
 import crypto from 'crypto';

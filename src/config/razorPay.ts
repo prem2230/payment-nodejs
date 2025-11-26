@@ -1,4 +1,6 @@
+import { configDotenv } from 'dotenv';
 import Razorpay from 'razorpay';
+configDotenv();
 
 export class RazorpayConfig {
     private static instance: RazorpayConfig;
